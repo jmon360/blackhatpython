@@ -1,0 +1,80 @@
+[2022-08-27T23:09:27.362Z] Log level: Info
+[2022-08-27T23:09:27.365Z] [info] Validating found git in: git
+[2022-08-27T23:09:27.379Z] [info] Using git 2.35.1 from git
+[2022-08-27T23:09:27.391Z] > git rev-parse --show-toplevel [4ms]
+[2022-08-27T23:09:27.418Z] > git rev-parse --git-dir --git-common-dir [21ms]
+[2022-08-27T23:09:27.422Z] [info] Open repository: /home/jordanyx
+[2022-08-27T23:09:27.481Z] > git status -z -uall [53ms]
+[2022-08-27T23:09:27.959Z] > git check-ignore -v -z --stdin [4ms]
+[2022-08-27T23:09:49.372Z] > git show --textconv :pythonfiles/udpclient.py [76ms]
+[2022-08-27T23:09:49.373Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/udpclient.py [71ms]
+[2022-08-27T23:09:50.219Z] > git show --textconv :pythonfiles/tcpclient.py [10ms]
+[2022-08-27T23:09:50.219Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [1ms]
+[2022-08-27T23:11:27.815Z] > git show --textconv :pythonfiles/tcpclient.py [5ms]
+[2022-08-27T23:11:27.817Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [3ms]
+[2022-08-27T23:11:59.524Z] > git add -A -- . [60ms]
+[2022-08-27T23:11:59.551Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty [21ms]
+[2022-08-27T23:11:59.551Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-08-27T23:11:59.556Z] > git config --get-all user.name [0ms]
+[2022-08-27T23:12:07.071Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
+[2022-08-27T23:12:07.077Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-27T23:12:07.107Z] > git show --textconv :pythonfiles/tcpclient.py [2ms]
+[2022-08-27T23:13:39.796Z] > git remote add tcpclient01 tcpclient01 [1ms]
+[2022-08-27T23:13:41.092Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
+[2022-08-27T23:13:41.099Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-27T23:13:41.111Z] > git show --textconv :pythonfiles/tcpclient.py [3ms]
+[2022-08-27T23:15:28.009Z] > git remote add tcpclient.py https://github.com/jmon360/jmon360.git [1ms]
+[2022-08-27T23:15:29.311Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [3ms]
+[2022-08-27T23:15:29.316Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-27T23:15:29.327Z] > git show --textconv :pythonfiles/tcpclient.py [3ms]
+[2022-08-27T23:16:50.959Z] > git remote add tcpclinet.py https://github.com/jmon360/fullstackcyber.git [1ms]
+[2022-08-27T23:16:52.274Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [3ms]
+[2022-08-27T23:16:52.278Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [0ms]
+[2022-08-27T23:16:52.293Z] > git show --textconv :pythonfiles/tcpclient.py [2ms]
+[2022-08-27T23:19:09.910Z] > git show --textconv :pythonfiles/udpclient.py [4ms]
+[2022-08-27T23:19:09.912Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/udpclient.py [2ms]
+[2022-08-27T23:19:09.917Z] > git cat-file -s c6a8a13afc3fe34e1d66dff1360fee7a7d5369e5 [1ms]
+[2022-08-27T23:19:10.581Z] > git show --textconv :pythonfiles/tcpserver.py [6ms]
+[2022-08-27T23:19:10.583Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpserver.py [2ms]
+[2022-08-27T23:19:10.588Z] > git cat-file -s b3552bd5f623040bdcf9b36a6047fd5a81df6ace [1ms]
+[2022-08-27T23:19:41.047Z] > git remote add jmon360 https://github.com/jmon360/demo-repo.git [1ms]
+[2022-08-27T23:19:42.395Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpserver.py [3ms]
+[2022-08-27T23:19:42.400Z] > git cat-file -s b3552bd5f623040bdcf9b36a6047fd5a81df6ace [1ms]
+[2022-08-27T23:19:42.411Z] > git show --textconv :pythonfiles/tcpserver.py [2ms]
+[2022-08-27T23:20:09.164Z] > git show --textconv :pythonfiles/tcpclient.py [6ms]
+[2022-08-27T23:20:09.165Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
+[2022-08-27T23:20:09.171Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-27T23:21:51.240Z] > git show --textconv :pythonfiles/tcpclient.py [5ms]
+[2022-08-27T23:21:51.242Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
+[2022-08-27T23:21:51.249Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-27T23:22:27.913Z] > git add -A -- . [1004ms]
+[2022-08-27T23:22:27.946Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty [27ms]
+[2022-08-27T23:22:27.946Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-08-27T23:22:27.954Z] > git config --get-all user.name [1ms]
+[2022-08-27T23:24:14.474Z] > git show --textconv :pythonfiles/tcpclient.py [5ms]
+[2022-08-27T23:24:14.476Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
+[2022-08-27T23:24:14.482Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [0ms]

@@ -1,0 +1,5 @@
+[2022-08-27 18:03:51.357] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.30
+[2022-08-27 18:03:51.363] [sharedprocess] [info] Deleted from disk ms-python.python /home/jordanyx/.vscode/extensions/ms-python.python-2022.12.0
+[2022-08-27 18:03:53.584] [sharedprocess] [info] Starting worker process with pid 24072 (type: fileWatcher, window: 1).
+[2022-08-27 18:04:55.272] [sharedprocess] [info] Worker process with pid 24072 terminated normally (type: fileWatcher, window: 1).
+[2022-08-27 18:04:56.140] [sharedprocess] [info] Starting worker process with pid 24398 (type: fileWatcher, window: 1).

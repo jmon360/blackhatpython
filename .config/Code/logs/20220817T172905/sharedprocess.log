@@ -1,0 +1,38 @@
+[2022-08-17 17:29:08.010] [sharedprocess] [info] Starting worker process with pid 26426 (type: fileWatcher, window: 1).
+[2022-08-17 17:35:21.273] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-08-17 17:35:21.288] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-08-17 17:35:21.794] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-08-17 17:35:22.157] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-keymap
+[2022-08-17 17:35:22.335] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-renderers
+[2022-08-17 17:35:22.517] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-08-17 17:35:22.754] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-08-17 17:35:22.754] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2022-08-17 17:35:22.755] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2022-08-17 17:35:22.755] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-08-17 17:35:24.931] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-keymap /home/jordanyx/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.0.0
+[2022-08-17 17:35:24.956] [sharedprocess] [info] Extracted extension to /home/jordanyx/.vscode/extensions/.e0efeb18-5ed8-4bd2-b7e8-eb045dbe299d: ms-toolsai.jupyter-keymap
+[2022-08-17 17:35:24.960] [sharedprocess] [info] Renamed to /home/jordanyx/.vscode/extensions/ms-toolsai.jupyter-keymap-1.0.0
+[2022-08-17 17:35:24.962] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2022-08-17 17:35:25.555] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/jordanyx/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.9
+[2022-08-17 17:35:25.851] [sharedprocess] [info] Extracted extension to /home/jordanyx/.vscode/extensions/.9b35db2c-491c-4869-9c76-6c1a7e0715da: ms-toolsai.jupyter-renderers
+[2022-08-17 17:35:25.873] [sharedprocess] [info] Renamed to /home/jordanyx/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.9
+[2022-08-17 17:35:25.875] [sharedprocess] [info] Downloaded extension: ms-python.python /home/jordanyx/.config/Code/CachedExtensionVSIXs/ms-python.python-2022.12.0
+[2022-08-17 17:35:25.875] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2022-08-17 17:35:27.088] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/jordanyx/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.7.1102252217
+[2022-08-17 17:35:27.990] [sharedprocess] [info] Extracted extension to /home/jordanyx/.vscode/extensions/.640b97c8-73bb-4b62-bd95-021eb2bab991: ms-toolsai.jupyter
+[2022-08-17 17:35:28.003] [sharedprocess] [info] Renamed to /home/jordanyx/.vscode/extensions/ms-toolsai.jupyter-2022.7.1102252217
+[2022-08-17 17:35:28.015] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-08-17 17:35:28.766] [sharedprocess] [info] Extracted extension to /home/jordanyx/.vscode/extensions/.0f683418-47b1-4ec4-abee-48a50ba4b2b1: ms-python.python
+[2022-08-17 17:35:28.778] [sharedprocess] [info] Renamed to /home/jordanyx/.vscode/extensions/ms-python.python-2022.12.0
+[2022-08-17 17:35:28.789] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-08-17 17:35:31.915] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/jordanyx/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.8.30
+[2022-08-17 17:35:35.841] [sharedprocess] [info] Extracted extension to /home/jordanyx/.vscode/extensions/.e78a036a-c2ad-436f-94ee-91c7957e7524: ms-python.vscode-pylance
+[2022-08-17 17:35:35.875] [sharedprocess] [info] Renamed to /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.30
+[2022-08-17 17:35:35.877] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2022-08-17 17:35:35.880] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2022-08-17 17:35:35.881] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2022-08-17 17:35:35.881] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2022-08-17 17:35:35.881] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2022-08-17 17:35:35.881] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance
+[2022-08-18 08:06:51.219] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-18 08:57:22.590] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

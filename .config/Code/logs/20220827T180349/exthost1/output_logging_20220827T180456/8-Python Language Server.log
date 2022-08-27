@@ -1,0 +1,28 @@
+[Info  - 6:05:15 PM] (24560) Pylance language server 2022.8.40 (pyright f444ffa5) starting
+[Info  - 6:05:15 PM] (24560) Server root directory: /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.40/dist
+[Info  - 6:05:15 PM] (24560) Starting service instance "jordanyx"
+[Info  - 6:05:15 PM] (24560) Notebook support: LSP
+[Info  - 6:05:15 PM] (24560) Interactive window support: LSP
+[Info  - 6:05:15 PM] (24560) No configuration file found.
+[Info  - 6:05:15 PM] (24560) No pyproject.toml file found.
+[Info  - 6:05:15 PM] (24560) Setting pythonPath for service "jordanyx": "/bin/python"
+[Warn  - 6:05:15 PM] (24560) stubPath /home/jordanyx/typings is not a valid directory.
+[Info  - 6:05:15 PM] (24560) Assuming Python version 3.10
+[Info  - 6:05:15 PM] (24560) Assuming Python platform Linux
+[Info  - 6:05:15 PM] (24560) Searching for source files
+[Info  - 6:05:15 PM] (24560) Auto-excluding /home/jordanyx/bhp/venv3
+[Info  - 6:05:15 PM] (24560) Found 3 source files
+[Info  - 6:05:15 PM] (24560) Background analysis(1) root directory: /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.40/dist
+[Info  - 6:05:15 PM] (24560) Background analysis(1) started
+[Info  - 6:08:09 PM] (24560) Searching for source files
+[Info  - 6:08:09 PM] (24560) Auto-excluding /home/jordanyx/bhp/venv3
+[Info  - 6:08:09 PM] (24560) Found 3 source files
+[Info  - 6:08:15 PM] (24560) Searching for source files
+[Info  - 6:08:15 PM] (24560) Auto-excluding /home/jordanyx/bhp/venv3
+[Info  - 6:08:15 PM] (24560) Found 3 source files
+[Info  - 6:08:17 PM] (24560) Searching for source files
+[Info  - 6:08:17 PM] (24560) Auto-excluding /home/jordanyx/bhp/venv3
+[Info  - 6:08:17 PM] (24560) Found 3 source files
+[Info  - 6:08:19 PM] (24560) Searching for source files
+[Info  - 6:08:19 PM] (24560) Auto-excluding /home/jordanyx/bhp/venv3
+[Info  - 6:08:19 PM] (24560) Found 3 source files

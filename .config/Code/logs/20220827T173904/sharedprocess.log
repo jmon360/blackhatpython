@@ -1,0 +1,15 @@
+[2022-08-27 17:39:06.550] [sharedprocess] [info] Starting worker process with pid 17840 (type: fileWatcher, window: 1).
+[2022-08-27 17:39:08.401] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-08-27 17:39:08.402] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-08-27 17:39:08.645] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-08-27 17:39:08.649] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-08-27 17:39:11.696] [sharedprocess] [info] Downloaded extension: ms-python.python /home/jordanyx/.config/Code/CachedExtensionVSIXs/ms-python.python-2022.12.1
+[2022-08-27 17:39:12.122] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/jordanyx/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.8.40
+[2022-08-27 17:39:14.479] [sharedprocess] [info] Extracted extension to /home/jordanyx/.vscode/extensions/.7ee96a64-cdc4-4201-bf6f-b4864551ad74: ms-python.python
+[2022-08-27 17:39:14.494] [sharedprocess] [info] Renamed to /home/jordanyx/.vscode/extensions/ms-python.python-2022.12.1
+[2022-08-27 17:39:14.498] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-08-27 17:39:14.511] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2022-08-27 17:39:16.781] [sharedprocess] [info] Extracted extension to /home/jordanyx/.vscode/extensions/.433589ea-a7b4-44ea-b1e8-5bee795b3fa3: ms-python.vscode-pylance
+[2022-08-27 17:39:16.787] [sharedprocess] [info] Renamed to /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.40
+[2022-08-27 17:39:16.789] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2022-08-27 17:39:16.793] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

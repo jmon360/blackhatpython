@@ -1,0 +1,21 @@
+[Info  - 5:39:07 PM] (17859) Pylance language server 2022.8.30 (pyright ed13daf1) starting
+[Info  - 5:39:07 PM] (17859) Server root directory: /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.30/dist
+[Info  - 5:39:07 PM] (17859) Notebook support: LSP
+[Info  - 5:39:07 PM] (17859) Interactive window support: LSP
+[Info  - 5:39:07 PM] (17859) Starting service instance "<default>"
+[Info  - 5:39:07 PM] (17859) No pyproject.toml file found.
+[Info  - 5:39:07 PM] (17859) Setting pythonPath for service "<default>": "/bin/python"
+[Warn  - 5:39:07 PM] (17859) stubPath typings is not a valid directory.
+[Info  - 5:39:07 PM] (17859) Assuming Python version 3.10
+[Info  - 5:39:07 PM] (17859) Assuming Python platform Linux
+[Info  - 5:39:07 PM] (17859) Searching for source files
+[Info  - 5:39:07 PM] (17859) No source files found.
+[Info  - 5:39:07 PM] (17859) No pyproject.toml file found.
+[Info  - 5:39:07 PM] (17859) Setting pythonPath for service "<default>": "/bin/python"
+[Warn  - 5:39:07 PM] (17859) stubPath typings is not a valid directory.
+[Info  - 5:39:07 PM] (17859) Assuming Python version 3.10
+[Info  - 5:39:07 PM] (17859) Assuming Python platform Linux
+[Info  - 5:39:07 PM] (17859) Searching for source files
+[Info  - 5:39:07 PM] (17859) No source files found.
+[Info  - 5:39:07 PM] (17859) Background analysis(1) root directory: /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.30/dist
+[Info  - 5:39:07 PM] (17859) Background analysis(1) started

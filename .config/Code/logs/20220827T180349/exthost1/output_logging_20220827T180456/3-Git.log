@@ -1,0 +1,92 @@
+[2022-08-27T23:04:58.775Z] Log level: Info
+[2022-08-27T23:04:58.778Z] [info] Validating found git in: git
+[2022-08-27T23:04:58.790Z] [info] Using git 2.35.1 from git
+[2022-08-27T23:04:58.805Z] > git rev-parse --show-toplevel [7ms]
+[2022-08-27T23:04:58.805Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.814Z] > git rev-parse --show-toplevel [2ms]
+[2022-08-27T23:04:58.814Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.819Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:04:58.819Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.823Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:04:58.823Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.826Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:04:58.826Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.830Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:04:58.830Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.834Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:04:58.834Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.838Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-27T23:04:58.838Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.842Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:04:58.842Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.845Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:04:58.845Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.848Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:04:58.848Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.850Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-27T23:04:58.850Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.853Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-27T23:04:58.853Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.856Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-27T23:04:58.856Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.859Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-27T23:04:58.859Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.862Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-27T23:04:58.862Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.865Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-27T23:04:58.865Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:04:58.868Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-27T23:04:58.868Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:05:14.214Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:05:14.214Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-27T23:05:19.203Z] > git init [15ms]
+[2022-08-27T23:05:19.203Z] hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+[2022-08-27T23:05:19.776Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-27T23:05:19.782Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-08-27T23:05:19.786Z] [info] Open repository: /home/jordanyx
+[2022-08-27T23:05:19.849Z] > git status -z -uall [55ms]
+[2022-08-27T23:05:20.124Z] > git show --textconv :tcpclient.py [8ms]
+[2022-08-27T23:05:20.125Z] > git ls-files --stage -- /home/jordanyx/tcpclient.py [2ms]
+[2022-08-27T23:05:20.369Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-27T23:05:26.322Z] > git symbolic-ref --short HEAD [0ms]
+[2022-08-27T23:05:26.330Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-08-27T23:05:26.338Z] > git remote --verbose [1ms]
+[2022-08-27T23:05:26.338Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-08-27T23:05:26.452Z] > git config --get commit.template [3ms]
+[2022-08-27T23:05:27.936Z] > git status -z -uall [1476ms]
+[2022-08-27T23:05:27.936Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-27T23:05:27.942Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-08-27T23:05:27.952Z] > git remote --verbose [0ms]
+[2022-08-27T23:05:27.953Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-08-27T23:05:28.038Z] > git config --get commit.template [1ms]
+[2022-08-27T23:05:31.293Z] > git check-ignore -v -z --stdin [2ms]
+[2022-08-27T23:05:36.045Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-27T23:06:49.344Z] > git add -A -- . [23191ms]
+[2022-08-27T23:06:49.495Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [143ms]
+[2022-08-27T23:06:49.495Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-08-27T23:06:49.502Z] > git config --get-all user.name [1ms]
+[2022-08-27T23:07:03.368Z] > git ls-files --stage -- /home/jordanyx/tcpclient.py [3ms]
+[2022-08-27T23:07:03.374Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-27T23:07:03.385Z] > git show --textconv :tcpclient.py [2ms]
+[2022-08-27T23:08:29.713Z] > git check-ignore -v -z --stdin [9ms]
