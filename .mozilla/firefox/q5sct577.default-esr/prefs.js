@@ -19,7 +19,7 @@ user_pref("app.update.lastUpdateTime.recipe-client-addon-run", 1661642312);
 user_pref("app.update.lastUpdateTime.region-update-timer", 1660773203);
 user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1661642192);
 user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1661642432);
-user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1660761643);
+user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1661642792);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1661642672);
 user_pref("browser.bookmarks.restore_default_bookmarks", false);
 user_pref("browser.contentblocking.category", "standard");
