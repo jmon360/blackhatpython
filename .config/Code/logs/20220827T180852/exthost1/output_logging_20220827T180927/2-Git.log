@@ -78,3 +78,13 @@ fatal: no email was given and auto-detection is disabled
 [2022-08-27T23:24:14.474Z] > git show --textconv :pythonfiles/tcpclient.py [5ms]
 [2022-08-27T23:24:14.476Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
 [2022-08-27T23:24:14.482Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [0ms]
+[2022-08-27T23:24:32.870Z] > git add -A -- . [41ms]
+[2022-08-27T23:24:32.931Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty [55ms]
+[2022-08-27T23:24:34.218Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [0ms]
+[2022-08-27T23:24:34.230Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-27T23:24:34.250Z] > git show --textconv :pythonfiles/tcpclient.py [4ms]
+[2022-08-27T23:24:46.231Z] > git remote add jmon360 https://github.com/jmon360/fullstackcyber.git [2ms]
+[2022-08-27T23:24:46.231Z] error: remote jmon360 already exists.
+[2022-08-27T23:25:04.043Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [3ms]
+[2022-08-27T23:25:04.049Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [0ms]
+[2022-08-27T23:25:04.065Z] > git show --textconv :pythonfiles/tcpclient.py [3ms]

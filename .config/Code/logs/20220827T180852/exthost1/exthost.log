@@ -31,3 +31,68 @@
 [2022-08-27 18:09:49.511] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-08-27 18:09:49.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-08-27 18:09:49.524] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-27 18:25:14.194] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-27 18:25:14.217] [exthost] [error] Canceled: Canceled
+	at new D (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at y.showMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:90068)
+	at Object.showErrorMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41730)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:1036961
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async a._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:63914) git.refresh {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-27 18:25:14.217] [exthost] [error] Canceled: Canceled
+	at new D (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at y.showMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:90068)
+	at Object.showErrorMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41730)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:1036961
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async a._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:63914) git.refresh {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-27 18:25:14.217] [exthost] [error] Canceled: Canceled
+	at new D (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at y.showMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:90068)
+	at Object.showErrorMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41730)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:1036961
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async a._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:63914) git.commit {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-27 18:25:14.218] [exthost] [error] Canceled: Canceled
+	at new D (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at y.showMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:90068)
+	at Object.showErrorMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41730)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:1036961
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async a._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:63914) git.push {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-27 18:25:14.218] [exthost] [error] Canceled: Canceled
+	at new D (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at y.showMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:90068)
+	at Object.showErrorMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41730)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:1036961
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async a._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:63914) git.push {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-27 18:25:14.218] [exthost] [error] Canceled: Canceled
+	at new D (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at y.showMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:90068)
+	at Object.showErrorMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41730)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:1036961
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async a._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:63914) git.push {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-27 18:25:14.218] [exthost] [error] Canceled: Canceled
+	at new D (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+	at o._remoteCall (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+	at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+	at y.showMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:90068)
+	at Object.showErrorMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41730)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:1036961
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async a._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:63914) git.push {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-27 18:25:14.225] [exthost] [info] Extension host with pid 26026 exiting with code 0

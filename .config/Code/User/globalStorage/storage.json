@@ -38,7 +38,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -73,6 +74,18 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/jordanyx/pythonfiles/tcpserver.py",
+                                        "path": "/home/jordanyx/pythonfiles/tcpserver.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/pythonfiles/tcpserver.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jordanyx/pythonfiles/tcpclient.py",
                                         "path": "/home/jordanyx/pythonfiles/tcpclient.py",
                                         "scheme": "file"
                                     },
@@ -126,6 +139,21 @@
                         "id": "saveAll",
                         "label": "Save A&&ll",
                         "enabled": false
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "submenuitem.MenubarShare",
+                        "label": "Share",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "vscode.menubar.separator"
