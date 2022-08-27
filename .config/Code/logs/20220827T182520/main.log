@@ -1,2 +1,4 @@
 [2022-08-27 18:25:20.988] [main] [info] update#setState idle
 [2022-08-27 18:25:22.035] [main] [info] Starting extension host with pid 31082 (fork() took 8 ms).
+[2022-08-27 18:25:50.989] [main] [info] update#setState checking for updates
+[2022-08-27 18:25:51.067] [main] [info] update#setState idle
