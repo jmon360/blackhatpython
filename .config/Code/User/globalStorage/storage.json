@@ -73,23 +73,23 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jordanyx/pythonfiles/tcpserver.py",
-                                        "path": "/home/jordanyx/pythonfiles/tcpserver.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/pythonfiles/tcpserver.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/jordanyx/pythonfiles/tcpclient.py",
                                         "path": "/home/jordanyx/pythonfiles/tcpclient.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/pythonfiles/tcpclient.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jordanyx/pythonfiles/tcpserver.py",
+                                        "path": "/home/jordanyx/pythonfiles/tcpserver.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/pythonfiles/tcpserver.py"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
