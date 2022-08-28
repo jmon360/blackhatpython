@@ -1,0 +1,21 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+commit
+# On branch master
+# Changes to be committed:
+#	modified:   .config/Code/Cache/Cache_Data/index-dir/the-real-index
+#	modified:   .config/Code/Cookies
+#	modified:   .config/Code/GPUCache/data_1
+#	modified:   .config/Code/TransportSecurity
+#	modified:   .config/Code/User/globalStorage/state.vscdb
+#	modified:   .config/Code/User/workspaceStorage/8b1126c4e2d12b753b0cd7bd77240697/state.vscdb
+#	modified:   .config/Code/logs/20220827T182520/exthost1/output_logging_20220827T182522/5-Git.log
+#	modified:   .mozilla/firefox/q5sct577.default-esr/datareporting/aborted-session-ping
+#	deleted:    .mozilla/firefox/q5sct577.default-esr/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.sqlite-wal
+#	deleted:    .mozilla/firefox/q5sct577.default-esr/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal
+#
+# Changes not staged for commit:
+#	modified:   .config/Code/logs/20220827T182520/exthost1/output_logging_20220827T182522/5-Git.log
+#
