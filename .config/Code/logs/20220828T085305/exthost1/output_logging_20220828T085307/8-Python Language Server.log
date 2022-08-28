@@ -1,0 +1,15 @@
+[Info  - 8:53:08 AM] (3138) Pylance language server 2022.8.40 (pyright f444ffa5) starting
+[Info  - 8:53:08 AM] (3138) Server root directory: /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.40/dist
+[Info  - 8:53:08 AM] (3138) Starting service instance "pythonfiles"
+[Info  - 8:53:08 AM] (3138) Notebook support: LSP
+[Info  - 8:53:08 AM] (3138) Interactive window support: LSP
+[Info  - 8:53:08 AM] (3138) No configuration file found.
+[Info  - 8:53:08 AM] (3138) No pyproject.toml file found.
+[Info  - 8:53:08 AM] (3138) Setting pythonPath for service "pythonfiles": "/bin/python"
+[Warn  - 8:53:08 AM] (3138) stubPath /home/jordanyx/pythonfiles/typings is not a valid directory.
+[Info  - 8:53:08 AM] (3138) Assuming Python version 3.10
+[Info  - 8:53:08 AM] (3138) Assuming Python platform Linux
+[Info  - 8:53:09 AM] (3138) Searching for source files
+[Info  - 8:53:09 AM] (3138) Found 3 source files
+[Info  - 8:53:09 AM] (3138) Background analysis(1) root directory: /home/jordanyx/.vscode/extensions/ms-python.vscode-pylance-2022.8.40/dist
+[Info  - 8:53:09 AM] (3138) Background analysis(1) started

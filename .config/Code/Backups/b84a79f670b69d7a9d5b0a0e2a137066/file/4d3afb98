@@ -1,0 +1,82 @@
+file:///home/jordanyx/.git/COMMIT_EDITMSG {"mtime":1661694849724,"ctime":1661642672896,"size":4857,"etag":"399h6fhs851l","orphaned":false,"typeId":""}
+commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'jmon360/main'.
+#
+# Changes to be committed:
+#	modified:   .config/Code/Cache/Cache_Data/index-dir/the-real-index
+#	modified:   .config/Code/Cookies
+#	modified:   .config/Code/GPUCache/data_1
+#	modified:   .config/Code/QuotaManager
+#	modified:   .config/Code/QuotaManager-journal
+#	modified:   .config/Code/Service Worker/Database/000003.log
+#	new file:   .config/Code/Service Worker/ScriptCache/f13a76bbf6c7f0b3_0
+#	new file:   .config/Code/Service Worker/ScriptCache/f13a76bbf6c7f0b3_1
+#	modified:   .config/Code/Service Worker/ScriptCache/index-dir/the-real-index
+#	modified:   .config/Code/TransportSecurity
+#	modified:   .config/Code/User/globalStorage/state.vscdb
+#	modified:   .config/Code/User/globalStorage/storage.json
+#	modified:   .config/Code/User/workspaceStorage/8b1126c4e2d12b753b0cd7bd77240697/state.vscdb
+#	modified:   .config/Code/logs/20220827T233751/exthost1/output_logging_20220827T233752/5-Git.log
+#	modified:   .config/Code/logs/20220827T233751/exthost1/output_logging_20220827T233752/6-GitHub Authentication.log
+#
+# Changes not staged for commit:
+#	modified:   .Xauthority
+#	modified:   .cache/gstreamer-1.0/registry.x86_64.bin
+#	modified:   .config/Code/Cache/Cache_Data/1721ac2f142f6f40_0
+#	modified:   .config/Code/Cache/Cache_Data/a4c70f4c1712f783_0
+#	modified:   .config/Code/Cache/Cache_Data/a97c96d98c7c4739_0
+#	modified:   .config/Code/Cache/Cache_Data/d121e2a6335b7510_0
+#	modified:   .config/Code/Cache/Cache_Data/index-dir/the-real-index
+#	modified:   .config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662/chrome/js/index-dir/the-real-index
+#	modified:   .config/Code/Cookies
+#	modified:   .config/Code/GPUCache/data_1
+#	modified:   .config/Code/GPUCache/index
+#	modified:   .config/Code/Local Storage/leveldb/LOG
+#	modified:   .config/Code/Local Storage/leveldb/LOG.old
+#	modified:   .config/Code/Service Worker/Database/LOG
+#	modified:   .config/Code/Service Worker/Database/LOG.old
+#	modified:   .config/Code/TransportSecurity
+#	modified:   .config/Code/User/globalStorage/state.vscdb
+#	modified:   .config/Code/User/globalStorage/storage.json
+#	modified:   .config/Code/User/workspaceStorage/8b1126c4e2d12b753b0cd7bd77240697/state.vscdb
+#	modified:   .config/Code/code.lock
+#	deleted:    .config/Code/logs/20220817T172905/editSessions.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/exthost.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/output_logging_20220817T172907/1-Microsoft Authentication.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/output_logging_20220817T172907/2-Git.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/output_logging_20220817T172907/3-GitHub Authentication.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/output_logging_20220817T172907/4-JSON Language Server.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/output_logging_20220817T172907/5-Jupyter.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/output_logging_20220817T172907/6-Python.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/output_logging_20220817T172907/7-Python Test Log.log
+#	deleted:    .config/Code/logs/20220817T172905/exthost1/output_logging_20220817T172907/8-Python Language Server.log
+#	deleted:    .config/Code/logs/20220817T172905/main.log
+#	deleted:    .config/Code/logs/20220817T172905/output_1_20220817T172906/extensions.log
+#	deleted:    .config/Code/logs/20220817T172905/output_1_20220817T172906/tasks.log
+#	deleted:    .config/Code/logs/20220817T172905/ptyhost.log
+#	deleted:    .config/Code/logs/20220817T172905/renderer1.log
+#	deleted:    .config/Code/logs/20220817T172905/sharedprocess.log
+#	deleted:    .config/Code/logs/20220817T172905/telemetry.log
+#	deleted:    .config/Code/logs/20220817T172905/userDataSync.log
+#	modified:   .config/Code/logs/20220827T233751/exthost1/output_logging_20220827T233752/1-Microsoft Authentication.log
+#	modified:   .config/Code/logs/20220827T233751/exthost1/output_logging_20220827T233752/5-Git.log
+#	modified:   .config/Code/logs/20220827T233751/exthost1/output_logging_20220827T233752/6-GitHub Authentication.log
+#	modified:   .config/Code/logs/20220827T233751/main.log
+#	modified:   .config/Code/logs/20220827T233751/sharedprocess.log
+#	modified:   .config/dconf/user
+#	modified:   .local/share/keyrings/Default_keyring.keyring
+#	modified:   .local/share/recently-used.xbel
+#	modified:   .vboxclient-clipboard.pid
+#	modified:   .vboxclient-display-svga-x11.pid
+#	modified:   .vboxclient-draganddrop.pid
+#	modified:   .vboxclient-seamless.pid
+#	modified:   .xsession-errors
+#	modified:   .xsession-errors.old
+#
+# Untracked files:
+#	.config/Code/logs/20220828T085305/
+#

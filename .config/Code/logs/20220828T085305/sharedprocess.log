@@ -1,0 +1,10 @@
+[2022-08-28 08:53:07.499] [sharedprocess] [info] Starting worker process with pid 3056 (type: fileWatcher, window: 1).
+[2022-08-28 09:19:24.063] [sharedprocess] [info] Getting Manifest... github.vscode-pull-request-github
+[2022-08-28 09:19:24.069] [sharedprocess] [info] Installing extension: github.vscode-pull-request-github
+[2022-08-28 09:19:25.099] [sharedprocess] [info] Downloaded extension: github.vscode-pull-request-github /home/jordanyx/.config/Code/CachedExtensionVSIXs/github.vscode-pull-request-github-0.48.1
+[2022-08-28 09:19:25.180] [sharedprocess] [info] Extracted extension to /home/jordanyx/.vscode/extensions/.c4f8733e-d532-4f73-a736-8493651ffcc6: github.vscode-pull-request-github
+[2022-08-28 09:19:25.185] [sharedprocess] [info] Renamed to /home/jordanyx/.vscode/extensions/github.vscode-pull-request-github-0.48.1
+[2022-08-28 09:19:25.186] [sharedprocess] [info] Extracting completed. github.vscode-pull-request-github
+[2022-08-28 09:19:25.188] [sharedprocess] [info] Extension installed successfully: github.vscode-pull-request-github
+[2022-08-28 09:49:23.634] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 3056 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-08-28 09:49:23.643] [sharedprocess] [info] Starting worker process with pid 18856 (type: fileWatcher, window: 1).

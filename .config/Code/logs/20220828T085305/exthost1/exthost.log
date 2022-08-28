@@ -1,0 +1,23 @@
+[2022-08-28 08:53:07.266] [exthost] [info] Extension host with pid 3011 started
+[2022-08-28 08:53:07.266] [exthost] [info] Skipping acquiring lock for /home/jordanyx/.config/Code/User/workspaceStorage/8b1126c4e2d12b753b0cd7bd77240697.
+[2022-08-28 08:53:07.343] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-28 08:53:07.442] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-28 08:53:07.548] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-28 08:53:07.580] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-28 08:53:07.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-28 08:53:07.587] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-28 08:53:08.030] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-28 08:53:08.054] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-28 08:53:08.066] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-08-28 08:53:08.139] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-28 08:53:08.259] [exthost] [info] Eager extensions activated
+[2022-08-28 08:53:08.262] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-28 08:53:08.289] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-28 08:53:08.296] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-28 08:53:08.406] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-28 08:53:08.416] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-28 08:53:08.442] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-28 09:19:25.359] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: '*'
+[2022-08-28 09:56:25.798] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 300
+[2022-08-28 10:09:01.855] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-28 10:09:01.887] [exthost] [info] Extension host with pid 3011 exiting with code 0

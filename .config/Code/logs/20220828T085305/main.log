@@ -1,0 +1,10 @@
+[2022-08-28 08:53:05.621] [main] [info] update#setState idle
+[2022-08-28 08:53:06.738] [main] [info] Starting extension host with pid 3011 (fork() took 7 ms).
+[2022-08-28 08:53:35.661] [main] [info] update#setState checking for updates
+[2022-08-28 08:53:35.738] [main] [info] update#setState idle
+[2022-08-28 09:39:28.451] [main] [info] update#setState checking for updates
+[2022-08-28 09:39:28.825] [main] [info] update#setState idle
+[2022-08-28 09:53:35.709] [main] [info] update#setState checking for updates
+[2022-08-28 09:53:36.079] [main] [info] update#setState idle
+[2022-08-28 10:09:01.895] [main] [info] Extension host with pid 3011 exited with code: 0, signal: null.
+[2022-08-28 10:09:01.898] [main] [info] Waiting for extension host with pid 3011 to exit.

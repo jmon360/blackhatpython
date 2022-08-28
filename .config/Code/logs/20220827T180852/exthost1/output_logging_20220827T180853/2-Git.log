@@ -1,8 +1,0 @@
-[2022-08-27T23:08:54.195Z] Log level: Info
-[2022-08-27T23:08:54.198Z] [info] Validating found git in: git
-[2022-08-27T23:08:54.215Z] [info] Using git 2.35.1 from git
-[2022-08-27T23:08:54.242Z] > git rev-parse --show-toplevel [4ms]
-[2022-08-27T23:08:54.283Z] > git rev-parse --git-dir --git-common-dir [30ms]
-[2022-08-27T23:08:54.292Z] [info] Open repository: /home/jordanyx
-[2022-08-27T23:08:54.376Z] > git status -z -uall [74ms]
-[2022-08-27T23:08:54.868Z] > git check-ignore -v -z --stdin [12ms]

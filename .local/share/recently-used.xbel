@@ -93,12 +93,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jordanyx/pythonfiles/tcpclient.py" added="2022-08-27T23:24:14.187762Z" modified="2022-08-28T00:40:09.071687Z" visited="2022-08-27T23:24:14.187763Z">
+  <bookmark href="file:///home/jordanyx/pythonfiles/tcpclient.py" added="2022-08-27T23:24:14.187762Z" modified="2022-08-28T14:49:00.303485Z" visited="2022-08-27T23:24:14.187763Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-python"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-28T00:40:09.071685Z" count="3"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-28T14:49:00.303483Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -119,6 +119,16 @@
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2022-08-28T04:40:31.045203Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordanyx/pythonfiles/netcat.py" added="2022-08-28T15:30:37.266534Z" modified="2022-08-28T15:35:13.859731Z" visited="2022-08-28T15:30:37.266534Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-28T15:35:13.859730Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

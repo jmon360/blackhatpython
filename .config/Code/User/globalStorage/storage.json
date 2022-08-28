@@ -38,7 +38,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -73,12 +74,12 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jordanyx/pythonfiles/tcpserver.py",
-                                        "path": "/home/jordanyx/pythonfiles/tcpserver.py",
+                                        "external": "file:///home/jordanyx/pythonfiles/netcat.py",
+                                        "path": "/home/jordanyx/pythonfiles/netcat.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/pythonfiles/tcpserver.py"
+                                    "label": "~/pythonfiles/netcat.py"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -90,6 +91,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/pythonfiles/tcpclient.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jordanyx/pythonfiles/tcpserver.py",
+                                        "path": "/home/jordanyx/pythonfiles/tcpserver.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/pythonfiles/tcpserver.py"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -136,8 +148,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -273,6 +284,22 @@
                     {
                         "id": "editor.action.clipboardCopyAction",
                         "label": "&&Copy"
+                    },
+                    {
+                        "id": "submenuitem.MenubarCopy",
+                        "label": "Copy As",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "issue.copyGithubPermalink",
+                                    "label": "Copy GitHub Permalink"
+                                },
+                                {
+                                    "id": "issue.copyMarkdownGithubPermalink",
+                                    "label": "Copy GitHub Permalink as Markdown"
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "editor.action.clipboardPasteAction",
@@ -551,13 +578,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -650,8 +670,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -688,8 +707,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -699,6 +717,17 @@
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "workbench.action.focusFirstSideEditor",
+                                    "label": "&&First Side in Editor"
+                                },
+                                {
+                                    "id": "workbench.action.focusSecondSideEditor",
+                                    "label": "&&Second Side in Editor"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.action.nextEditor",
                                     "label": "&&Next Editor"
@@ -758,45 +787,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -1332,11 +1370,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
-            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1579,7 +1612,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 282,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1592,8 +1625,8 @@
                 "mode": 0,
                 "x": 5,
                 "y": 66,
-                "width": 1910,
-                "height": 879
+                "width": 1600,
+                "height": 745
             }
         },
         "openedWindows": []
