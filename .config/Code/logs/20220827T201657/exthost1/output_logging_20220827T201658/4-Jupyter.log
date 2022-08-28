@@ -9,3 +9,10 @@ info 20:16:59.624: LSP Notebooks experiment is enabled
 info 20:16:59.678: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
 info 20:16:59.820: Process Execution: > /bin/python -m pip list
 > /bin/python -m pip list
+info 20:21:51.393: Shutting down notebooks for 0ef0eeaa-8562-45ea-b176-2ac153bd70bb
+info 20:21:51.393: Disposing HostJupyterExecution 41fd13ad-3b1d-497f-b003-514e2d5b0902
+info 20:21:51.393: Disposing super HostJupyterExecution 41fd13ad-3b1d-497f-b003-514e2d5b0902
+info 20:21:51.393: Disposing HostJupyterExecution 41fd13ad-3b1d-497f-b003-514e2d5b0902
+info 20:21:51.393: Finished disposing HostJupyterExecution  41fd13ad-3b1d-497f-b003-514e2d5b0902
+info 20:21:51.397: Cleaning up server cache 41fd13ad-3b1d-497f-b003-514e2d5b0902
+info 20:21:51.398: Finished disposing HostJupyterExecution  41fd13ad-3b1d-497f-b003-514e2d5b0902
