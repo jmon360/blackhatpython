@@ -83,22 +83,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jordanyx/pythonfiles" added="2022-08-27T23:09:25.713306Z" modified="2022-08-28T00:09:50.895930Z" visited="2022-08-27T23:09:25.713306Z">
+  <bookmark href="file:///home/jordanyx/pythonfiles" added="2022-08-27T23:09:25.713306Z" modified="2022-08-28T00:39:50.035993Z" visited="2022-08-27T23:09:25.713306Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-28T00:09:50.895928Z" count="2"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-28T00:39:50.035992Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jordanyx/pythonfiles/tcpclient.py" added="2022-08-27T23:24:14.187762Z" modified="2022-08-27T23:38:30.714196Z" visited="2022-08-27T23:24:14.187763Z">
+  <bookmark href="file:///home/jordanyx/pythonfiles/tcpclient.py" added="2022-08-27T23:24:14.187762Z" modified="2022-08-28T00:40:09.071687Z" visited="2022-08-27T23:24:14.187763Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-python"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-27T23:38:30.714194Z" count="2"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-28T00:40:09.071685Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
