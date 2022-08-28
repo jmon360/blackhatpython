@@ -1,0 +1,1 @@
+[2022-08-27 19:12:11.226] [renderer1] [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/jordanyx/.git/COMMIT_EDITMSG' (Error: File Modified Since) file:///home/jordanyx/.git/COMMIT_EDITMSG

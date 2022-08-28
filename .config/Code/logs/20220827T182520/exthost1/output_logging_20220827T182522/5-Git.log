@@ -1616,3 +1616,39 @@ and then push using the remote name
 [2022-08-28T00:02:14.551Z] > git show --textconv :pythonfiles/tcpclient.py [4ms]
 [2022-08-28T00:02:14.553Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
 [2022-08-28T00:02:14.558Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-28T00:02:17.082Z] > git add -A -- . [43ms]
+[2022-08-28T00:02:17.468Z] > git show --textconv :.git/COMMIT_EDITMSG [5ms]
+[2022-08-28T00:02:17.471Z] > git ls-files --stage -- /home/jordanyx/.git/COMMIT_EDITMSG [3ms]
+[2022-08-28T00:02:18.390Z] > git ls-files --stage -- /home/jordanyx/.git/COMMIT_EDITMSG [3ms]
+[2022-08-28T00:02:18.404Z] > git show --textconv :.git/COMMIT_EDITMSG [3ms]
+[2022-08-28T00:02:45.492Z] > git push [1ms]
+[2022-08-28T00:02:45.492Z] fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+[2022-08-28T00:02:59.489Z] > git remote add git@github.com-jmon360/blackhatpython.git https://github.com/jmon360/jmon360.git [0ms]
+[2022-08-28T00:02:59.489Z] error: remote git@github.com-jmon360/blackhatpython.git already exists.
+[2022-08-28T00:03:11.004Z] > git show --textconv :.git/COMMIT_EDITMSG [4ms]
+[2022-08-28T00:03:11.006Z] > git ls-files --stage -- /home/jordanyx/.git/COMMIT_EDITMSG [2ms]
+[2022-08-28T00:03:36.085Z] > git show --textconv :pythonfiles/tcpclient.py [4ms]
+[2022-08-28T00:03:36.087Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
+[2022-08-28T00:03:36.092Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-28T00:05:55.961Z] > git show --textconv :pythonfiles/tcpserver.py [4ms]
+[2022-08-28T00:05:55.963Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpserver.py [3ms]
+[2022-08-28T00:05:55.968Z] > git cat-file -s b3552bd5f623040bdcf9b36a6047fd5a81df6ace [1ms]
+[2022-08-28T00:05:59.517Z] > git show --textconv :pythonfiles/udpclient.py [4ms]
+[2022-08-28T00:05:59.519Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/udpclient.py [3ms]
+[2022-08-28T00:05:59.523Z] > git cat-file -s c6a8a13afc3fe34e1d66dff1360fee7a7d5369e5 [1ms]
+[2022-08-28T00:06:00.878Z] > git show --textconv :pythonfiles/tcpserver.py [4ms]
+[2022-08-28T00:06:00.880Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpserver.py [2ms]
+[2022-08-28T00:06:00.885Z] > git cat-file -s b3552bd5f623040bdcf9b36a6047fd5a81df6ace [0ms]
+[2022-08-28T00:06:04.455Z] > git show --textconv :pythonfiles/udpclient.py [4ms]
+[2022-08-28T00:06:04.457Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/udpclient.py [2ms]
+[2022-08-28T00:06:04.462Z] > git cat-file -s c6a8a13afc3fe34e1d66dff1360fee7a7d5369e5 [1ms]
+[2022-08-28T00:06:04.895Z] > git show --textconv :pythonfiles/tcpserver.py [4ms]
+[2022-08-28T00:06:04.897Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpserver.py [2ms]
+[2022-08-28T00:06:04.901Z] > git cat-file -s b3552bd5f623040bdcf9b36a6047fd5a81df6ace [1ms]
