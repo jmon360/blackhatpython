@@ -1,7 +1,7 @@
-github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	19231	1693178068593,1,1,2
+www.siteground.com^partitionKey=%28http%2Csiteground.com%29:HSTS	0	19232	1693184525094,1,0,2
 classify-client.services.mozilla.com:HSTS	2	19232	1693181069624,1,0,2
 code.visualstudio.com^partitionKey=%28http%2Cvisualstudio.com%29:HSTS	0	19221	1692310757731,1,0,2
-firefox.settings.services.mozilla.com:HSTS	2	19232	1693184788444,1,0,2
+firefox.settings.services.mozilla.com:HSTS	2	19232	1693197552252,1,0,2
 services.addons.mozilla.org:HSTS	1	19231	1693178551823,1,0,2
 alive.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	19231	1693178060842,1,0,2
 collector.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	19231	2292780587462,1,0,2
@@ -11,5 +11,5 @@ api.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	19231	1693178071278,1
 shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	1	19231	1693178048136,1,1,2
 location.services.mozilla.com:HSTS	1	19232	1693184216558,1,1,2
 normandy.cdn.mozilla.net:HSTS	2	19232	1693181069480,1,0,2
-www.siteground.com^partitionKey=%28http%2Csiteground.com%29:HSTS	0	19232	1693184525094,1,0,2
 aus5.mozilla.org:HSTS	1	19231	1693178551973,1,0,2
+github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	1	19232	1693197643260,1,1,2
