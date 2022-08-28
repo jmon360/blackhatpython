@@ -686,3 +686,119 @@ To push the current branch and set the remote as upstream, use
 [2022-08-28T00:40:14.258Z] > git remote --verbose [1ms]
 [2022-08-28T00:40:14.258Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
 [2022-08-28T00:40:14.266Z] > git config --get commit.template [1ms]
+[2022-08-28T00:40:16.750Z] > git add -A -- . [48ms]
+[2022-08-28T00:40:17.156Z] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+[2022-08-28T00:40:17.158Z] > git ls-files --stage -- /home/jordanyx/.git/COMMIT_EDITMSG [3ms]
+[2022-08-28T00:40:18.067Z] > git ls-files --stage -- /home/jordanyx/.git/COMMIT_EDITMSG [3ms]
+[2022-08-28T00:40:18.078Z] > git show --textconv :.git/COMMIT_EDITMSG [3ms]
+[2022-08-28T00:40:20.654Z] > git push [1ms]
+[2022-08-28T00:40:20.654Z] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+[2022-08-28T00:40:26.416Z] > git push [1ms]
+[2022-08-28T00:40:26.416Z] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+[2022-08-28T00:40:31.902Z] > git push -u git@github.com-jmon360/blackhatpython.git main [270ms]
+[2022-08-28T00:40:31.902Z] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2022-08-28T00:45:40.095Z] > git show --textconv :pythonfiles/tcpclient.py [5ms]
+[2022-08-28T00:45:40.097Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [2ms]
+[2022-08-28T00:45:40.103Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-28T00:45:43.232Z] > git push [0ms]
+[2022-08-28T00:45:43.232Z] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+[2022-08-28T00:45:48.326Z] > git push -u git@github.com-jmon360/blackhatpython.git main [290ms]
+[2022-08-28T00:45:48.326Z] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2022-08-28T00:46:11.343Z] > git push [1ms]
+[2022-08-28T00:46:11.343Z] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+[2022-08-28T00:47:00.356Z] > git push -u jmon360 main [42686ms]
+[2022-08-28T00:47:00.356Z] remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File .cache/pip/http/9/6/6/7/2/966728b5b478b81d95fc5ffb18d721b748f56a9998ad4d1d4ba9face is 50.89 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File code_1.70.2-1660629410_amd64.deb is 81.26 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/jmon360/demo-repo.git
+ * [new branch]      main -> main
+[2022-08-28T00:47:00.393Z] > git status -z -uall [31ms]
+[2022-08-28T00:47:00.400Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-28T00:47:00.407Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-28T00:47:00.418Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-08-28T00:47:00.418Z] > git remote --verbose [3ms]
+[2022-08-28T00:47:00.426Z] > git config --get commit.template [1ms]
+[2022-08-28T00:47:01.663Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [3ms]
+[2022-08-28T00:47:01.671Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]
+[2022-08-28T00:47:01.687Z] > git show --textconv :pythonfiles/tcpclient.py [3ms]
+[2022-08-28T00:47:18.938Z] > git push jmon360 main:main [462ms]
+[2022-08-28T00:47:18.938Z] Everything up-to-date
+[2022-08-28T00:47:18.975Z] > git status -z -uall [31ms]
+[2022-08-28T00:47:18.982Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-28T00:47:18.988Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-28T00:47:19.001Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-08-28T00:47:19.001Z] > git remote --verbose [2ms]
+[2022-08-28T00:47:19.009Z] > git config --get commit.template [1ms]
+[2022-08-28T00:47:19.678Z] > git check-ignore -v -z --stdin [3ms]
+[2022-08-28T00:47:25.574Z] > git push jmon360 main:main [501ms]
+[2022-08-28T00:47:25.574Z] Everything up-to-date
+[2022-08-28T00:47:25.609Z] > git status -z -uall [29ms]
+[2022-08-28T00:47:25.616Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-28T00:47:25.622Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-28T00:47:25.633Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-08-28T00:47:25.633Z] > git remote --verbose [1ms]
+[2022-08-28T00:47:25.641Z] > git config --get commit.template [1ms]
+[2022-08-28T00:48:37.909Z] > git push jmon360 main:main [485ms]
+[2022-08-28T00:48:37.909Z] Everything up-to-date
+[2022-08-28T00:48:37.944Z] > git status -z -uall [29ms]
+[2022-08-28T00:48:37.952Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-28T00:48:37.959Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-28T00:48:37.974Z] > git remote --verbose [1ms]
+[2022-08-28T00:48:37.974Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-08-28T00:48:37.984Z] > git config --get commit.template [1ms]
+[2022-08-28T00:48:46.982Z] > git show --textconv :.git/COMMIT_EDITMSG [8ms]
+[2022-08-28T00:48:46.984Z] > git ls-files --stage -- /home/jordanyx/.git/COMMIT_EDITMSG [3ms]
+[2022-08-28T00:48:58.629Z] > git show --textconv :pythonfiles/tcpserver.py [5ms]
+[2022-08-28T00:48:58.631Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpserver.py [2ms]
+[2022-08-28T00:48:58.637Z] > git cat-file -s b3552bd5f623040bdcf9b36a6047fd5a81df6ace [1ms]
+[2022-08-28T00:49:02.371Z] > git push jmon360 main:main [498ms]
+[2022-08-28T00:49:02.371Z] Everything up-to-date
+[2022-08-28T00:49:02.408Z] > git status -z -uall [31ms]
+[2022-08-28T00:49:02.415Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-28T00:49:02.421Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-28T00:49:02.434Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-28T00:49:02.434Z] > git remote --verbose [2ms]
+[2022-08-28T00:49:02.441Z] > git config --get commit.template [0ms]
+[2022-08-28T00:49:27.998Z] > git push jmon360 main:main [454ms]
+[2022-08-28T00:49:27.998Z] Everything up-to-date
+[2022-08-28T00:49:28.045Z] > git status -z -uall [42ms]
+[2022-08-28T00:49:28.053Z] > git symbolic-ref --short HEAD [0ms]
+[2022-08-28T00:49:28.060Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-28T00:49:28.075Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-28T00:49:28.075Z] > git remote --verbose [2ms]
+[2022-08-28T00:49:28.085Z] > git config --get commit.template [1ms]
+[2022-08-28T00:49:35.167Z] > git push jmon360 main:main [472ms]
+[2022-08-28T00:49:35.167Z] Everything up-to-date
+[2022-08-28T00:49:35.206Z] > git status -z -uall [34ms]
+[2022-08-28T00:49:35.213Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-28T00:49:35.222Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-08-28T00:49:35.236Z] > git remote --verbose [2ms]
+[2022-08-28T00:49:35.237Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-08-28T00:49:35.243Z] > git config --get commit.template [0ms]
+[2022-08-28T01:16:42.466Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpserver.py [2ms]
+[2022-08-28T01:16:42.472Z] > git cat-file -s b3552bd5f623040bdcf9b36a6047fd5a81df6ace [1ms]
+[2022-08-28T01:16:42.483Z] > git show --textconv :pythonfiles/tcpserver.py [2ms]
+[2022-08-28T01:16:44.467Z] > git show --textconv :pythonfiles/tcpclient.py [5ms]
+[2022-08-28T01:16:44.469Z] > git ls-files --stage -- /home/jordanyx/pythonfiles/tcpclient.py [3ms]
+[2022-08-28T01:16:44.474Z] > git cat-file -s 29ab960dc4c98d937685c6bc0e9f235c12de5d43 [1ms]

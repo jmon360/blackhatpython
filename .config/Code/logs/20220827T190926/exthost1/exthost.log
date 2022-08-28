@@ -17,3 +17,57 @@
 [2022-08-27 19:09:30.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-08-27 19:09:30.038] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-08-27 19:09:30.054] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-27 20:16:53.066] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-27 20:16:53.086] [exthost] [error] Canceled: Canceled
+	at Object.R [as canceled] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:9094
+	at Array.forEach (<anonymous>)
+	at o.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:9042)
+	at w.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10969)
+	at w.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at b.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at i._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23593)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21127
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at b.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15837)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14967
+	at Socket.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:26303)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23) git.commit {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-27 20:16:53.086] [exthost] [error] Canceled: Canceled
+	at Object.R [as canceled] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:9094
+	at Array.forEach (<anonymous>)
+	at o.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:9042)
+	at w.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10969)
+	at w.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at b.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at i._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23593)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21127
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at b.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15837)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14967
+	at Socket.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:26303)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23) _vscode_delegate_cmd_l7ckqzyg undefined
+[2022-08-27 20:16:53.092] [exthost] [info] Extension host with pid 49363 exiting with code 0
