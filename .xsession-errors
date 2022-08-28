@@ -1,4 +1,4 @@
-Xsession: X session started for jordanyx at Sat Aug 27 05:12:01 PM CDT 2022
+Xsession: X session started for jordanyx at Sat Aug 27 11:37:33 PM CDT 2022
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/jordanyx/.Xauthority
@@ -38,70 +38,54 @@ dbus-update-activation-environment: setting PWD=/home/jordanyx
 dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
 /usr/bin/x-session-manager: X server already running on display :0
 /usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
-xfce4-session-Message: 17:12:01.869: SSH authentication agent is already running
+xfce4-session-Message: 23:37:33.227: SSH authentication agent is already running
 gpg-agent: a gpg-agent is already running - not starting a new one
 
-(xfwm4:1370): xfwm4-WARNING **: 17:12:02.191: Unsupported GL renderer (llvmpipe (LLVM 14.0.6, 256 bits)).
+(xfwm4:972): xfwm4-WARNING **: 23:37:33.473: Unsupported GL renderer (llvmpipe (LLVM 14.0.6, 256 bits)).
 
-(wrapper-2.0:1427): Gtk-WARNING **: 17:12:02.654: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+** (wrapper-2.0:1037): WARNING **: 23:37:33.906: No outputs have backlight property
 
-** (wrapper-2.0:1435): WARNING **: 17:12:02.665: No outputs have backlight property
+(wrapper-2.0:1029): Gtk-WARNING **: 23:37:33.918: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
 
-(wrapper-2.0:1434): GLib-GIO-CRITICAL **: 17:12:02.673: g_file_new_for_path: assertion 'path != NULL' failed
+(wrapper-2.0:1036): GLib-GIO-CRITICAL **: 23:37:33.919: g_file_new_for_path: assertion 'path != NULL' failed
 
-(wrapper-2.0:1434): GLib-GIO-CRITICAL **: 17:12:02.673: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(wrapper-2.0:1036): GLib-GIO-CRITICAL **: 23:37:33.919: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(wrapper-2.0:1434): GLib-GObject-WARNING **: 17:12:02.673: invalid (NULL) pointer instance
+(wrapper-2.0:1036): GLib-GObject-WARNING **: 23:37:33.919: invalid (NULL) pointer instance
 
-(wrapper-2.0:1434): GLib-GObject-CRITICAL **: 17:12:02.673: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(wrapper-2.0:1036): GLib-GObject-CRITICAL **: 23:37:33.919: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:1434): Gtk-WARNING **: 17:12:02.673: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+(wrapper-2.0:1036): Gtk-WARNING **: 23:37:33.919: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
 
-(wrapper-2.0:1434): Gtk-WARNING **: 17:12:02.690: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1036): Gtk-WARNING **: 23:37:33.946: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
 
-(wrapper-2.0:1433): Gtk-WARNING **: 17:12:02.718: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+(wrapper-2.0:1037): Gtk-WARNING **: 23:37:33.961: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PowerManagerButton)
 
-(wrapper-2.0:1435): Gtk-WARNING **: 17:12:02.729: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PowerManagerButton)
+(wrapper-2.0:1035): Gtk-WARNING **: 23:37:33.992: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
 
-** (xfce4-power-manager:1478): WARNING **: 17:12:02.745: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+** (xfce4-power-manager:1086): WARNING **: 23:37:33.993: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
 
 
-** (xfce4-power-manager:1478): WARNING **: 17:12:02.745: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+** (xfce4-power-manager:1086): WARNING **: 23:37:33.994: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
 
 Xfce power manager is not running
 
-(xfce4-power-manager:1478): GLib-GObject-WARNING **: 17:12:02.794: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0x5563d7725880' of type 'GDBusProxy'
+(xfce4-power-manager:1086): GLib-GObject-WARNING **: 23:37:34.033: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0x55cf08924880' of type 'GDBusProxy'
 Xfce Power Manager: Another power manager is already running
 Another notification daemon is running, exiting
 
-(xfce4-power-manager:1478): xfce4-power-manager-WARNING **: 17:12:02.868: could not map keysym 1008ffa8 to keycode
+(xfce4-power-manager:1086): xfce4-power-manager-WARNING **: 23:37:34.100: could not map keysym 1008ffa8 to keycode
 
 
-** (xfce4-power-manager:1478): WARNING **: 17:12:02.882: No outputs have backlight property
+** (xfce4-power-manager:1086): WARNING **: 23:37:34.112: No outputs have backlight property
 
-(xfce4-power-manager:1478): xfce4-power-manager-WARNING **: 17:12:02.887: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+(xfce4-power-manager:1086): xfce4-power-manager-WARNING **: 23:37:34.115: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
 
-** (xiccd:1496): WARNING **: 17:12:02.934: EDID is empty
-blueman-applet 17.12.03 WARNING  PluginManager:151 __load_plugin: Not loading PPPSupport because its conflict has higher priority
-blueman-applet 17.12.03 WARNING  PluginManager:151 __load_plugin: Not loading DhcpClient because its conflict has higher priority
-blueman-applet 17.12.03 WARNING  DiscvManager:119 update_menuitems: warning: Adapter is None
+** (xiccd:1099): WARNING **: 23:37:34.157: EDID is empty
+blueman-applet 23.37.34 WARNING  PluginManager:151 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 23.37.34 WARNING  PluginManager:151 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 23.37.34 WARNING  DiscvManager:119 update_menuitems: warning: Adapter is None
 
-** (xiccd:1496): WARNING **: 17:12:05.824: EDID is empty
+** (xiccd:1099): WARNING **: 23:37:37.173: EDID is empty
 
-** (xiccd:1496): WARNING **: 17:12:05.826: EDID is empty
-
-** (xiccd:1496): WARNING **: 17:15:15.465: EDID is empty
-
-** (xiccd:1496): WARNING **: 17:15:15.467: EDID is empty
-
-** (xiccd:1496): WARNING **: 17:15:16.950: EDID is empty
-
-** (xiccd:1496): WARNING **: 17:15:16.952: EDID is empty
-
-** (xiccd:1496): WARNING **: 17:36:04.910: EDID is empty
-
-** (xiccd:1496): WARNING **: 17:36:04.913: EDID is empty
-
-** (xiccd:1496): WARNING **: 17:36:06.506: EDID is empty
-
-** (xiccd:1496): WARNING **: 17:36:06.513: EDID is empty
+** (xiccd:1099): WARNING **: 23:37:37.174: EDID is empty
