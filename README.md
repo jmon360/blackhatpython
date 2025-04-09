@@ -38,5 +38,25 @@ Uncomment the `client.send()` line to test against real HTTP servers:
 ```python
 client.send(b"GET / HTTP/1.1\r\nHost: google.com\r\n\r\n")
 
+---
+
+## 🧩 TCP Server (`tcpserver.py`)
+
+This script implements a simple **multithreaded TCP server**. It listens for incoming connections on a specified port, spawns a new thread per client, and echoes back an "ACK" after receiving a message.
+
+### 🧠 How It Works
+- Listens on all interfaces (`0.0.0.0`) using port `9998`
+- Accepts incoming TCP connections one at a time
+- Each client is handled on its own thread
+- Sends a response back to each client after receiving data
+
+### 💡 Educational Concepts Demonstrated
+- TCP socket creation and binding
+- Threading for concurrent client handling
+- Basic socket-based messaging protocol
+
+### ⚙️ Sample Output
+
+
 
 > ⚠️ This tool is for **educational and authorized testing only.** Unauthorized use is prohibited.
