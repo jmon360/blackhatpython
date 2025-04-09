@@ -20,5 +20,23 @@ While this implementation shares the same foundational ideas—such as using soc
 - Modular, object-oriented design (`NetCat` class)  
 - Readable documentation and CLI usability enhancements  
 - Future integration with TCP/UDP utilities for a full Python networking toolkit
+- ---
+
+## 🌐 TCP Client (`tcpclient.py`)
+
+This script demonstrates a basic TCP client written in Python using the `socket` module. It connects to a remote server, optionally sends data (e.g., HTTP GET request), and receives the server’s response.
+
+### 🧠 How It Works
+- Uses `socket.AF_INET` and `socket.SOCK_STREAM` to establish a TCP connection
+- Connects to a user-defined target host and port
+- Receives and prints up to 4096 bytes of response
+- Can be adapted for HTTP, raw sockets, or IoT devices
+
+### 🔧 Sample Use (with HTTP GET)
+Uncomment the `client.send()` line to test against real HTTP servers:
+
+```python
+client.send(b"GET / HTTP/1.1\r\nHost: google.com\r\n\r\n")
+
 
 > ⚠️ This tool is for **educational and authorized testing only.** Unauthorized use is prohibited.
