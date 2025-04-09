@@ -6,7 +6,7 @@ This is repo with all the python I've followed along from the book
 # 🧠 Python Networking Toolkit
 
 A lightweight, modular toolkit for socket programming and network automation using Python.  
-Created by **jmon360** (DJ Veteran • Civil Eng. Assistant • Security Student)  
+Created by **jmon360** (Civil Eng. Assistant • Security Student)  
 Inspired by *Black Hat Python* and designed for Red/Blue Team learning.
 
 ---
